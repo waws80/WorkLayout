@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:background="#109c58"
+    android:layout_width="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="21.74dp"
+    android:layout_height="69.59dp">
+
+    <View
+        android:background="@mipmap/activity_back"
+        android:layout_width="30.8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="30.8dp"/>
+    <TextView
+        android:text="在线咨询"
+        android:textSize="14.49sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+    <ListView
+        android:layout_weight="8"
+        android:id="@+id/onlin_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:background="#f4f4f4"
+        android:padding="7.25dp"
+        android:id="@+id/online_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="54.35dp">
+        <View
+            android:id="@+id/online_edit_voice"
+            android:background="@mipmap/online_voice"
+            android:layout_width="33.7dp"
+            android:layout_centerVertical="true"
+            android:layout_height="33.7dp"/>
+        <EditText
+            android:id="@+id/online_edit_text"
+            android:hint="输入信息"
+            android:layout_marginLeft="7.97dp"
+            android:layout_marginRight="7.97dp"
+            android:gravity="center"
+            android:textSize="12.3sp"
+            android:layout_toRightOf="@id/online_edit_voice"
+            android:layout_width="278dp"
+           android:layout_centerInParent="true"
+            android:layout_height="36.23dp" />
+        <View
+            android:id="@+id/online_edit_addpic"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/online_addpic"
+            android:layout_alignParentRight="true"
+            android:layout_width="33.7dp"
+            android:layout_height="33.7dp"/>
+
+        <View
+            android:id="@+id/online_edit_expression"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4.35dp"
+            android:background="@mipmap/online_expression"
+            android:layout_toLeftOf="@id/online_edit_addpic"
+            android:layout_width="33.7dp"
+            android:layout_height="33.7dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
