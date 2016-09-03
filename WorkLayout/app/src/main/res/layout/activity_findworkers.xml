@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="69.59dp"
+        android:background="#109c58"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="21.74dp">
+
+        <View
+            android:layout_width="30.8dp"
+            android:layout_height="30.8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:background="@mipmap/activity_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text="在线咨询"
+            android:textColor="@android:color/white"
+            android:textSize="14.49sp" />
+
+        <TextView
+            android:id="@+id/findwork_process_method_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="工艺工法"
+            android:textColor="@android:color/white"
+            android:textSize="10.87sp" />
+
+        <View
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/findwork_process_method_tv"
+            android:background="@mipmap/findwork_process_method" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@mipmap/findwork_knows_bg"
+        android:layout_marginTop="73.21dp"
+        android:layout_width="match_parent"
+        android:layout_height="181.16dp">
+        <LinearLayout
+            android:background="@mipmap/findwork_knows_bg_frame"
+            android:layout_width="match_parent"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <View
+                    android:background="@mipmap/findwork_one"
+                    android:layout_width="17.75dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="17.75dp"/>
+                <TextView
+                    android:layout_marginTop="37.75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <View
+                    android:background="@mipmap/findwork_two"
+                    android:layout_width="17.75dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="17.75dp"/>
+                <TextView
+                    android:layout_marginTop="37.75dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/findwork_knows"
+            android:layout_width="42.39dp"
+            android:layout_marginTop="2dp"
+            android:layout_height="10.51dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="71.21dp"
+        android:background="#00ffffff"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <View
+                android:layout_width="match_parent"
+                android:background="#00ffffff"
+                android:layout_height="184.16dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:paddingLeft="20dp"
+                android:background="@android:color/white"
+                android:paddingRight="20dp"
+                android:layout_height="35.87dp">
+                <View
+                    android:background="@mipmap/findwork_share_icon"
+                    android:layout_width="18.12dp"
+                    android:layout_centerVertical="true"
+                    android:layout_height="18.12dp"/>
+                <TextView
+                    android:text="用工分享"
+                    android:textColor="@android:color/black"
+                    android:textSize="11.96sp"
+                    android:layout_marginLeft="28.12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/activity_back"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+            </RelativeLayout>
+
+        <ListView
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="1300dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+<ImageView
+    android:layout_width="65.58dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:src="@mipmap/findwork_requirements"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_height="80.43dp" />
+
+</RelativeLayout>
