@@ -73,7 +73,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_height="17.75dp"/>
                 <TextView
-                    android:layout_marginTop="37.75dp"
+                    android:layout_marginTop="30.75dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:text="你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊"
@@ -92,7 +92,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_height="17.75dp"/>
                 <TextView
-                    android:layout_marginTop="37.75dp"
+                    android:layout_marginTop="30.75dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:text="你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊你好啊"
@@ -115,7 +115,7 @@
     <thanatos.worklayout.CustomScrollView
         android:id="@+id/findwork_scrollview"
         android:layout_width="match_parent"
-        android:layout_marginTop="71.21dp"
+        android:layout_marginTop="69.59dp"
         android:background="#00ffffff"
         android:scrollbars="none"
         android:layout_height="wrap_content">
@@ -181,7 +181,7 @@
         android:layout_width="match_parent"
         android:paddingLeft="20dp"
         android:visibility="gone"
-        android:layout_marginTop="73.21dp"
+        android:layout_marginTop="69.59dp"
         android:background="@android:color/white"
         android:paddingRight="20dp"
         android:layout_height="35.87dp">
