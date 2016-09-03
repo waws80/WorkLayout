@@ -49,6 +49,7 @@
             android:background="@mipmap/findwork_process_method" />
 
     </RelativeLayout>
+
     <RelativeLayout
         android:background="@mipmap/findwork_knows_bg"
         android:layout_marginTop="73.21dp"
@@ -111,7 +112,8 @@
 
     </RelativeLayout>
 
-    <ScrollView
+    <thanatos.worklayout.CustomScrollView
+        android:id="@+id/findwork_scrollview"
         android:layout_width="match_parent"
         android:layout_marginTop="71.21dp"
         android:background="#00ffffff"
@@ -126,6 +128,7 @@
                 android:background="#00ffffff"
                 android:layout_height="184.16dp"/>
             <RelativeLayout
+                android:id="@+id/findwork_item1"
                 android:layout_width="match_parent"
                 android:paddingLeft="20dp"
                 android:background="@android:color/white"
@@ -153,13 +156,55 @@
             </RelativeLayout>
 
         <ListView
-            android:background="@android:color/white"
+            android:background="@android:color/holo_purple"
             android:layout_width="match_parent"
-            android:layout_height="1300dp" />
+            android:layout_height="300dp" />
+            <ListView
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+            <ListView
+                android:background="@android:color/holo_purple"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+            <ListView
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
 
         </LinearLayout>
 
-    </ScrollView>
+    </thanatos.worklayout.CustomScrollView>
+
+    <RelativeLayout
+        android:id="@+id/findwork_item0"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:visibility="gone"
+        android:layout_marginTop="73.21dp"
+        android:background="@android:color/white"
+        android:paddingRight="20dp"
+        android:layout_height="35.87dp">
+        <View
+            android:background="@mipmap/findwork_share_icon"
+            android:layout_width="18.12dp"
+            android:layout_centerVertical="true"
+            android:layout_height="18.12dp"/>
+        <TextView
+            android:text="用工分享"
+            android:textColor="@android:color/black"
+            android:textSize="11.96sp"
+            android:layout_marginLeft="28.12dp"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_centerVertical="true"
+            android:background="@mipmap/activity_back"
+            android:layout_alignParentRight="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+    </RelativeLayout>
 <ImageView
     android:layout_width="65.58dp"
     android:layout_marginRight="20dp"
